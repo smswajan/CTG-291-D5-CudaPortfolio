@@ -34,5 +34,5 @@ $(function() {
         }
       });
     })
-    .trigger("scroll");
+    .trigger("onscroll");
 });
