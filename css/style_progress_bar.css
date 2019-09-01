@@ -1,0 +1,99 @@
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 12.8px;
+}
+
+section {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 460.8px;
+  text-align: center;
+}
+
+/*** RADIAL PROGRESS ***/
+/* Circumference = 2πr */
+/* π = 3.1415926535898 */
+/* r = 35 */
+
+svg.radial-progress {
+  height: auto;
+  max-width: 200px;
+  padding: 12.8px;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+
+svg.radial-progress circle {
+  fill: rgba(0, 0, 0, 0);
+  stroke: #fff;
+  stroke-dashoffset: 219.91148575129; /* Circumference */
+  stroke-width: 6;
+}
+
+svg.radial-progress circle.incomplete {
+  opacity: 0.25;
+}
+
+svg.radial-progress circle.complete {
+  stroke-dasharray: 219.91148575129; /* Circumference */
+}
+
+svg.radial-progress text {
+  fill: black;
+  font: 400 12.8/1 "Oswald", sans-serif;
+  text-anchor: middle;
+}
+
+/*** COLORS ***/
+/* Primary */
+
+.skill-1 svg.radial-progress circle {
+  stroke: #30bae7;
+}
+
+/* Secondary */
+
+.skill-2 svg.radial-progress circle {
+  stroke: #d74680;
+}
+
+/* Tertiary */
+
+.skill-3 svg.radial-progress circle {
+  stroke: #15c7a8;
+}
+
+/* Quaternary */
+
+.skill-4 svg.radial-progress circle {
+  stroke: #eb7d4b;
+}
+
+/* Quinary */
+
+svg.radial-progress:nth-of-type(6n + 5) circle {
+  stroke: #fddc32;
+}
