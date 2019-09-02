@@ -61,21 +61,14 @@ a {
   color: #009487;
 }
 /*  pre-defined properties   */
-.mar-bot-24 {
-  margin-bottom: 24px;
-}
+
 .mar-bot-26 {
   margin-bottom: 26px;
 }
 .mar-top-26 {
   margin-top: 36px;
 }
-.mar-top-32 {
-  margin-top: 32px;
-}
-.mar-top-40 {
-  margin-top: 40px;
-}
+
 .color-white {
   color: white;
 }
@@ -249,8 +242,7 @@ header nav .logo-box {
   padding-right: 4px;
   line-height: 1;
 }
-.parent .person-one .person-s-icon i {
-}
+
 .fa.fa-facebook,
 .fa.fa-twitter,
 .fa.fa-linkedin,
@@ -269,18 +261,22 @@ header nav .logo-box {
   color: #3f5c9a;
   padding-left: 12px;
   padding-right: 12px;
+  cursor: pointer;
 }
 .fa.fa-twitter {
   background-color: #fff;
   color: #1da1f2;
+  cursor: pointer;
 }
 .fa.fa-linkedin {
   background-color: #fff;
   color: #0073b0;
+  cursor: pointer;
 }
 .fa.fa-envelope-o {
   background-color: #fff;
   color: #dc493d;
+  cursor: pointer;
 }
 .fa.fa-facebook:hover {
   background-color: #3f5c9a;
@@ -406,16 +402,20 @@ ul.section-portfolio--menu {
   margin-top: 38px;
   margin-bottom: 18px;
   font-family: "Merienda", cursive;
+  font-family: "Livvic", sans-serif;
+  font-family: "Indie Flower", cursive;
+  font-family: "Courgette", cursive;
+
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 100%;
-  font-weight: 300;
+  font-weight: 400;
   text-align: left;
 }
 .testimony-txt h3 {
   color: white;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-align: left;
 }
 .testimony-txt h4 {
