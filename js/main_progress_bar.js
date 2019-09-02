@@ -8,7 +8,7 @@ $(function() {
 
   // Activate progress animation on scroll
   $(window)
-    .onscroll(function() {
+    .scroll(function() {
       $("svg.radial-progress").each(function(index, value) {
         // If svg.radial-progress is approximately 25% vertically into the window when scrolling from the top or the bottom
         if (
